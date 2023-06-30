@@ -15,16 +15,16 @@ Mr.John Doe
 """
 
 
-sentence = "start a sentence and bring it to an end"
+# sentence = "start a sentence and bring it to an end"
 
-# pattern = re.compile(r"\d\d\d.\d\d\d.\d\d\d\d")
+# # pattern = re.compile(r"\d\d\d.\d\d\d.\d\d\d\d")
 
-pattern = re.compile(r"\d{3}.\d{3}.\d{4}")
+# pattern = re.compile(r"\d{3}.\d{3}.\d{4}")
 
-matches = pattern.finditer(text_to_search)
+# matches = pattern.finditer(text_to_search)
 
-for match in matches:
-    print(match)
+# for match in matches:
+#     print(match)
 
 # print(text_to_search[1:4])
 
